@@ -1,22 +1,41 @@
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet"  href="bootstrap/css/bootstrap.css">
     <title>Annisa Sholiha</title>
     <style>
-    body {
-    padding-top: 50px;
+    .bs-docs-masthead {
+      color: blueviolet;
+      text-align: center;
+      width: 1000px;
     }
-
-    .thick-black-border {
-      border-color: black;
-      border-width: 5px;
-      border-style: solid;
+    .container1 {
+      width: 1000px;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
     }
-
-    bg-warning {
-      background-color: #fcf8e3;
-    }
+    .featurette-divider {
+     padding-top: 50px;
+     border: 3;
+   }
+   .container marketing {
+     margin-top: 100px;
+     padding-left: 50px;
+   }
+   .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+   }
+   .marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+   }
     </style>
   </head>
 
@@ -40,61 +59,80 @@
         </div>
       </div>
     </nav>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <img class="thick-black-border" src="Gambar/di tmii.jpg">
-          </img>
-        </div>
-        <div class="col-md-8 bg-warning">
-          <h3>Hallo!</h3>
-          <p>Namanya Annisa Sholiha. Ia biasa dipanggil Annisa, Anis, Nisa atau Anshol.
-              Seorang mahasiswi Biologi FMIPA UI semester 9 yang sedang menunggu waktu
-              sidang setelah 9 bulan penelitian di BPPT, Serpong (Alhamdulillah per Januari 2017 udah resmi lulus).
-            </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-9 bg-warning">
-          <h3>ISTJ...</h3>
-          <p>Beberapa kali tes MBTI selalu menunjukkan bahwa ia memiliki kepribadian ISTJ
-              (Introvert, Sensing, Thinking, Judging). Ia memiliki kepekaan yang luar biasa dengan musik
-              dan menurut orang, ia memiliki suara merdu. Namun, sifat <i>introvert</i>nya membuat dia tidak terlalu suka menjadi
-              pusat perhatian, sehingga ia jarang tampil di atas panggung.
-              <br>Punya hobi menulis cerita waktu kecil dulu. Entah sudah berapa cerpen yang ia tulis di buku tulisnya.
-            Biasanya bercerita tentang superhero (akibat sering dicekoki kartun minggu pagi waktu bocah).<br></p>
-         </div>
-         <div class="col-md-3">
-           <img class="thick-black-border" src="Gambar/di dufan.JPG">
-           </img>
-         </div>
-        <div class="row">
-          <div class="col-md-2">
-            <img class="thick-black-border" src="Gambar/UserPhoto.jpg">
-            </img>
-          </div>
-          <div class="col-md-10 bg-warning">
-            <h3><i>Woman with code</i></h3>
-            <p>Mendekati kelulusannya di Universitas Indonesia (UI), saat ini dia belajar <i>skill</i>
-              baru yaitu <i>coding for </i> Front End Development. Dengan kata lain, dia belajar untuk menjadi
-              programmer website. Saat ini dia sedang belajar <i>online</i> di <a href="http://freecodecamp.com">freecodecamp.com</a> dan dibawah bimbingan
-              Rizky Syaiful S.Kom a.k.a Abang.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8 bg-warning">
-            <h3><i>Woman with</i> Toastmaster</h3>
-            <p>Toastmaster juga merupakan dunia yang digelutinya. Sempat menjadi Vice President of Education (VPE) yang
-              belakangan menjadi <i>President</i> di Universitas Indonesia Toastmasters Club.
-              Sekarang jadi member biasa dan sedang mencoba menjadi club mentor di Aviation Training Center (ATC) Toastmasters Club.</p>
-          </div>
-          <div class="col-md-4">
-            <img class="thick-black-border" src="Gambar/di toastmaster.jpg">
-            </img>
-          </div>
-        </div>
-      </div>
+  <main class="bs-docs-masthead" id="content" tabindex="-1"> 
+    <div class="container1">   
+      <p class="lead">Welcome!</p>
     </div>
+  </main>    
+  <div class="container marketing">
+    <hr class="featurette-divider"><hr/>
+    <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading"><i>Who is she?</i></h2>
+          <p class="lead">Namanya Annisa Sholiha. Ia biasa dipanggil Annisa, Anis, Nisa atau Anshol.
+              Seorang mahasiswi Biologi FMIPA UI semester 9 yang sedang menunggu waktu
+              sidang setelah 9 bulan penelitian di BPPT, Serpong (Alhamdulillah per Januari 2017 udah resmi lulus).</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="Gambar/di tmii.jpg" data-holder-rendered="true">
+        </div>
+    </div>
+    <hr class="featurette-divider"><hr/>
+    <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="Gambar/di dufan.JPG" data-holder-rendered="true">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading"><i> An ISTJ who learn not being ISTJ ego entirely</i></h2>
+          <p class="lead">Beberapa kali tes MBTI selalu menunjukkan bahwa ia memiliki kepribadian ISTJ
+              (Introvert, Sensing, Thinking, Judging), walaupun kepribadian tersebut tidak selalu ada setiap saat.</p>
+        </div>
+    </div>
+    <hr class="featurette-divider"><hr/>
+    <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading"><i>Woman with Code</i></h2>
+          <p class="lead">Mendekati kelulusannya di Universitas Indonesia (UI), saat ini dia belajar <i>skill</i>
+              baru yaitu <i>coding for </i> Front End Development. </p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="Gambar/UserPhoto.jpg" data-holder-rendered="true">
+        </div>
+    </div>
+    <hr class="featurette-divider"><hr/>
+    <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="Gambar/di toastmaster.jpg" data-holder-rendered="true">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading"><i>Toastmasters Geeker</i></h2>
+          <p class="lead">Toastmaster juga merupakan dunia yang digelutinya. Sempat menjadi Vice President of Education (VPE) yang
+              belakangan menjadi <i>President</i> di Universitas Indonesia Toastmasters Club.
+              Sekarang jadi member biasa dan sedang mencoba menjadi club mentor di Aviation Training Curug (ATC) Toastmasters Club.</p>
+        </div>
+    </div>
+    <hr class="featurette-divider"><hr/>
+    <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="Gambar/mic.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2><i>Song Bird</i></h2>
+        </div> 
+        <div class="col-lg-4">
+          <img class="img-circle" src="Gambar/ngetik.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Curhat <i>Writer</i></h2>
+        </div> 
+        <div class="col-lg-4">
+          <img class="img-circle" src="Gambar/notation.png" alt="Generic placeholder image" width="140" height="140">
+          <h2><i>Listener</i></h2>
+       </div> 
+   </div>
+</div>   
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Be builded by Bootstrap, Visual Studio Code, and Love :)</p>
+      </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.js"></script>
   </body>
