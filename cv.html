@@ -1,99 +1,463 @@
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet"  href="bootstrap/css/bootstrap.css">
-    <title>Annisa Sholiha</title>
-    <style>
-    body {
-    padding-top: 50px;
-    }
-    .thick-black-border {
-      border-color: black;
-      border-width: 2px;
-      border-style: solid;
-    }
-    .bg-info {
-      background-color: #d9edf7;
-    }
-    </style>
-  </head>
-
-  <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">Annisa Sholiha</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="cv.html">Curriculum Vitae</a></li>
-            <li><a href="Anshol-Februari2017.html">Tempat Bermain Anshol</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="container">
-      <h1> Curriculum Vitae</h1>
-      <div class="row">
-        <div class="col-md-2">
-          <img class="thick-black-border" src="Gambar/Annisa Sholiha.png" style="width: 100%;">
+<head>
+    <title>Tempat Latihan</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+  <style>
+  body {
+    font family: 'Roboto', sans-serif;
+    background-color:	#696969;
+    font-size: 14px;
+    padding: 30px;
+  }
+  .wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .sidebar-wrapper {
+    background: #cdb79e;
+    position: absolute;
+    right: 0;
+    width: 275px;
+    height: 1731px;
+    min-height: 800px;
+    color: #fff;
+  }
+  .sidebar-wrapper a {
+    color: #fff;
+  }
+  .contact-list li {
+    margin-bottom: 15px;
+  }
+  .profile-container {
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #fff;
+  }
+  .profile {
+    margin-bottom: 20px;
+  }
+  img {
+    vertical-align: middle;
+    border: 0;
+  }
+  .name {
+    font-size: 32px;
+    margin-top:0;
+    margin-bottom: 10px;
+  }
+  .tagline {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .container-block {
+    padding: 30px;
+  }
+  .container-block-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 25px; 
+  }
+  .contact-list {
+    text-align: left;
+  }
+  ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .item {
+    margin-bottom: 20px;
+  }
+  .degree {
+    font-size: 14px;
+    margin-bottom:8px;
+  }
+  .univ {
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .time {
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .interests-list {
+    margin-bottom: 0;
+  }
+  .lang-desc {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .main-wrapper {
+    background:	#fdf5e6;
+    padding: 50px;
+    padding-right: 300px;
+  }
+  .section {
+    margin-bottom: 30px;
+  }
+  .section-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    color: #8b7d6b;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .section-title .fa {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    color: #fff;
+    background: #8b7d6b;
+    text-align: center;
+    padding-top: 6px;
+  }
+  .hr-left {
+    height: 1px;
+    width: 100px;
+    margin-bottom: 30px;
+    background-color: #8b7d6b;
+  }
+  .btn-group {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .btn-primary {
+    background-color: #8b7d6b;
+    color: #fff;
+    border-color:#8b7d6b;
+  }
+  .btn-default {
+    background-color:#fff;
+    color: #8b7d60;
+    border-color:#8b7d6b;
+  }
+  .item {
+    margin-bottom: 30px;
+  }
+  .meta {
+    font-family: 'Roboto', sans-serif;
+    color: #8b7d6b;
+    font-size: 14px;
+  }
+  .upper-row {
+    position: relative;
+    margin-bottom: 2px;
+  }
+  .job-title {
+    color: 	#8b8b83;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+  }
+  .time1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color:#cdaf95;
+  }
+  .company {
+    color:#cdaf95;
+    margin-bottom: 10px;
+  }
+  .details {
+    color: #8b7d6b;
+  }
+  .skillset .item {
+    margin-bottom: 15px;
+    overflow: hidden;
+  }
+  .skillset .level-title {
+    float: left;
+    width: 30%;
+    margin-bottom: 0;
+    font-size: 16px;
+    margin-top: 0;
+    color: #8b8b83;
+  }
+  .skillset .level-bar {
+    width: 70%;
+    float: left;
+    position: relative;
+    top: 1px;
+    height: 14px;
+    background: #cdb79e;
+  }
+  .skillset .level-bar-inner {
+    height: 14px;
+    background: #8b7d6b;
+  }
+  .container-fluid1 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    background: #8b7d6b;
+  }
+  </style>
+</head>   
+<body>
+  <div class= "wrapper">
+    <div class="sidebar-wrapper">
+      <div class="profile-container">
+        <img class="profile img-rounded" src="Gambar/Annisa Sholiha.png" width="125" height="150">
         </img>
+        <h1 class="name">Annisa Sholiha</h1>
+        <h3 class="tagline">Fresh Graduate</h3>
+      </div>
+      <div class="contact-container container-block">
+        <ul class="list-unstyled contact-list">
+          <li class="email">
+            <i class="fa fa-google" style="font-size: 24px"></i>
+            <a href="">annisa.sholiha@gmail.com</a> 
+          </li>
+          <li class="github">
+            <i class="fa fa-github" style="font-size: 24px"></i>
+            <a href="annisasholiha.github.io">annisasholiha.github.io</a>
+          </li>  
+          <li class="instagram">
+            <i class="fa fa-instagram" style="font-size: 24px"></i>
+            <a href="https://www.instagram.com/annisa.sholiha/">annisa.sholiha</a>
+          </li>
+          <li class="whatsapp">
+            <i class="fa fa-whatsapp" style="font-size: 24px"></i>
+            <a href="">+6285711230476</a>
+          </li>
+          <li class="facebook">
+            <i class="fa fa-facebook" style="font-size: 24px"></i>
+            <a href="https://www.facebook.com/annisa.sholiha.12">Annisa Sholiha</a>
+          </li>
+        </ul>  
+      </div>
+      <div class="education-container container-block">
+        <h2 class="container-block-title">Education</h2>
+        <div class="item">
+          <h4 class="degree">S.Si. in Biology</h4>
+          <h5 class="univ">Universitas Indonesia</h5>
+          <div class="time">2012-2017</div>
+        </div>  
+      </div> 
+      <div class="languages-container container-block">
+        <h2 class="container-block-title">Languages</h2>
+        <ul class="list-unstyled languages-list">
+          <li>Indonesian
+            <span class="lang-desc">(Native)</span>
+          </li>
+          <li>English
+            <span class="lang-desc">(Professional)</span>
+          </li>
+        </ul>  
+      </div>   
+      <div class="interests-container container-block">
+        <h2 class="container-block-title">Interests</h2>
+        <ul class="list-unstyled interests-list">
+          <li>Front-End Development</li>
+          <li>Molecular Biology</li>
+      </div>   
+  </div>
+  <div class="main-wrapper">
+    <section class="section personal-info">
+      <h2 class="section-title">
+        <i class="fa fa-user">
+        </i>
+        Personal Life
+      </h2>  
+    </section>
+    <div class="hr-left"></div> 
+    <div class="btn-group">
+      <button type="button" disabled class="btn btn-primary">Name</button>
+      <button type="button" disabled class="btn btn-default">Annisa Sholiha</button>
+    </div>
+    <div class="btn-group">
+      <button type="button" disabled class="btn btn-primary">Sex</button>
+      <button type="button" disabled class="btn btn-default">Female</button>
+     </div> 
+    <div class="btn-group">
+      <button type="button" disabled class="btn btn-primary">Date and Place of Birth</butto.skn>
+      <button type="button" disabled class="btn btn-default">Jakarta, May 12<sup>th</sup> 1993</button>
+    </div>
+    <div class="btn-group">
+      <button type="button" disabled class="btn btn-primary">Nationality</button>
+      <button type="button" disabled class="btn btn-default">Indonesia</button>
+     </div> 
+    <div class="btn-group">
+      <button type="button" disabled class="btn btn-primary">Address</button>
+      <button type="button" disabled class="btn btn-default">Jln. Bidar 5E No.7, Kelapa Dua, Kab. Tangerang</button>
+    </div>
+    <section class="section work-experience-section">
+      <h2 class="section-title" style="padding-top: 45px">
+        <i class="fa fa-briefcase">
+        </i>
+        Work Experiences
+      </h2>  
+    </section>
+    <div class="hr-left"></div>
+    <div class="item">
+      <div class="meta">
+        <div class="upper-row">
+          <h3 class="job-title">Researcher Assistant</h3>
+          <div class="time1">August 2015</div>
         </div>
-        <div class="col-md-10 bg-info">
-          <h2>Data Pribadi</h2>
-          <h4>Nama Lengkap          : Annisa Sholiha</h4>
-          <h4>Tempat, Tanggal Lahir	: Jakarta, 12 Mei 1993</h4>
-          <h4>Jenis Kelamin		     	: Perempuan</h4>
-          <h4>Agama			          	: Islam</h4>
-          <h4>Alamat Rumah	       	: Jln. Bidar 5E No. 7 RT/RW 05/08, Kelapa Dua, Kab. Tangerang</h4>
-          <h4>No. Handphone	       	: 085711230476</h4>
-          <h4>Status		            : Belum Menikah</h4>
-          <h4>E-mail		            : annisa.sholiha@gmail.com</h4>
-          <h2>Riwayat Pendidikan</h2>
-          <h4>1997-2000	: TKIT Harapan Kita, Kab. Tangerang</h4>
-          <h4>2000-2005	: SDN Parapat 2, Kota Tangerang</h4>
-          <h4>2005-2006	: SDN Kunciran 6, Kota Tangerang</h4>
-          <h4>2006-2009	: SMPN 3 Kota Tangerang</h4>
-          <h4>2009-2012	: SMAN 2 Kota Tangerang</h4>
-          <h4>2012-2017	: Jurusan Biologi, Fakultas Matematika & Ilmu Pengetahuan Alam (FMIPA), Universitas Indonesia (Program Sarjana Reguler)</h4>
-          <h2> Riwayat Organisasi</h2>
-          <h4>2007-2009	: Kelompok Paduan Suara SMPN 3 Kota Tangerang//Anggota</h4>
-          <h4>2009-2011	  : Doeta Voice Club SMAN 2 Kota Tangerang//Anggota</h4>
-          <h4>2009-2012	  : Pengkajian Islam SMAN 2 Tangerang (Pisman Doeta)//Staf Keputrian</h4>
-          <h4>2012-2013		: Autodidact Violin Community (AVC) Depok//Anggota</h4>
-          <h4>2012-2014	: Klub Musik VIVA FMIPA UI//Anggota</h4>
-          <h4>2013-2014	: Kelompok Studi Mahasiswa (KSM) Eka Prasetya UI
-            <ul>
-              <li><h4>Staf Riset & Pengembangan Manusia (RPM) (2013)</h4></li>
-              <li><h4>Deputi Pengembangan Sumber Daya Manusia (PSDM) (2014)</h4></li>
-            </ul>
-          <h4>2013-2015	: Lembaga Pers FMIPA UI "Scientia"//Reporter</h4>
-          <h4>2014-2015	: UI Toastmasters Club//Anggota</h4>
-          <h4>2015-2016 : UI Toastmasters Club//Vice President of Education (VPE)</h4>
-          <h2>Pengalaman Kerja</h2>
-          <h3>Kerja Praktik</h3>
-          <h4>Bagian Penelitian dan Pengembangan (Litbang) Rumah Sakit Kanker Dharmais (RSKD)</h4>
-          <ul>
-            <li>Periode : Agustus 2015</li>
-            <li>Tujuan  : Persyaratan kelulusan di Departemen Biologi FMIPA UI</li>
-            <li>Posisi  : Staf Litbang</li>
-          </ul>
-          <h3>Skripsi</h3>
-          <h4>Laboratorium Biologi Molekuler Kesehatan, Pusat Teknologi Farmasi dan Medika (PTFM), Badan Pengkajian dan Penerapan Teknologi (BPPT), Serpong</h4>
-          <ul>
-            <li>Periode : Januari-September 2016</li>
-            <li>Tujuan  : Persyaratan kelulusan di Departemen Biologi FMIPA UI</li>
-          </ul>
+        <div class="company">Research and Development Division, Rumah Sakit Kanker Dharmais (RSKD)</div>
+      </div>
+      <div class="details">
+        <p>I did a research in Cancer Screening. Exactly screening of Human Papiloma Virus (HPV) type 16 in parafilm wax of mouth tissues. The tissues come from sufferer of Squamous Cell Carcinoma (SCC). Methodology encompasses DNA isolation, Polymerase Chain Reaction (PCR), and electrophoresis. This research is done to reach prerequisite of field study in Departement of Biology, FMIPA UI.</p>  
+      </div>
+   </div>
+   <div class="item">
+      <div class="meta">
+        <div class="upper-row">
+          <h3 class="job-title">Mentor Assistant</h3>
+          <div class="time1">November-Desember 2015</div>
         </div>
+        <div class="company">Human Resources Development Division, Universitas Indonesia</div>
+      </div>
+      <div class="details">
+        <p>I assisted mentor to make learning process is more attractive, such as making interactive games. The games involve mentee to join it.</p>  
+    </div>
+  </div>   
+   <div class="item">
+      <div class="meta">
+        <div class="upper-row">
+          <h3 class="job-title">Researcher Assistant</h3>
+          <div class="time1">January-September 2016</div>
+        </div>
+        <div class="company">Health Molecular Biology Laboratory, Badan Pengkajian dan Pengembangan Teknologi (BPPT)</div>
+      </div>
+      <div class="details">
+        <p>I did a research in development dengue vaccine. Exactly, validation test cloning result, expression and purification of NS3 protein Dengue Virus (DENV) serotype 3 as candidate dengue vaccine. Methodology encompasses DNA isolation, Polymerase Chain Reaction (PCR), electrophoresis, SDS-PAGE, Western Blot, and protein purification with Immobilized Metal Affinity Chromatography (IMAC). This research is done to reach prerequisite of final thesis in Departement of Biology, FMIPA UI.</p>  
+    </div>
+  </div> 
+   <section class="section work-experience-section">
+      <h2 class="section-title" style="padding-top: 45px">
+        <i class="fa fa-handshake-o">
+        </i>
+        Organization Experiences
+      </h2>  
+    </section>
+    <div class="hr-left"></div>
+    <div class="item">
+      <div class="meta">
+        <div class="upper-row">
+          <h3 class="job-title">Vice President of Education</h3>
+          <div class="time1">July 2015-January 2016 & July-December 2016</div>
+        </div>
+        <div class="company">Universitas Indonesia Toastmasters Club</div>
       </div>
     </div>
+    <div class="item">
+      <div class="meta">
+        <div class="upper-row">
+          <h3 class="job-title">Deputy of Human Resources Development Division</h3>
+          <div class="time1">January-December 2014</div>
+        </div>
+        <div class="company">Kelompok Studi Mahasiswa (KSM) Eka Prasetya UI</div>
+      </div>
+    </div>
+     <div class="item">
+      <div class="meta">
+        <div class="upper-row">
+          <h3 class="job-title">Staff of Research Division</h3>
+          <div class="time1">January-December 2013</div>
+        </div>
+        <div class="company">Kelompok Studi Mahasiswa (KSM) Eka Prasetya UI</div>
+      </div>
+    </div>
+  <section class="section work-experience-section">
+      <h2 class="section-title" style="padding-top: 45px">
+        <i class="fa fa-rocket">
+        </i>
+        Skill & Proficiency
+      </h2>  
+  </section>
+  <div class="hr-left"></div>
+  <div class="skillset">
+    <div class="item">
+      <h3 class="level-title">HTML 5</h3>
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="85%" style="width: 85%;"></div>
+      </div>
+    </div>
+  </div>
+  <div class="skillset">
+    <div class="item">
+      <h3 class="level-title">CSS3</h3>
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="85%" style="width: 85%;"></div>
+      </div>
+    </div>
+  </div>
+  <div class="skillset">
+    <div class="item">
+      <h3 class="level-title">JavaScript</h3>
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="25%" style="width: 25%;"></div>
+      </div>
+    </div>
+  </div>
+  <div class="skillset">
+    <div class="item">
+      <h3 class="level-title">JQuery</h3>
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="20%" style="width: 20%;"></div>
+      </div>
+    </div>
+  </div>
+  <div class="skillset">
+    <div class="item">
+      <h3 class="level-title">Western Blot</h3>
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="90%" style="width: 90%;"></div>
+      </div>
+    </div>
+  </div>
+  <div class="skillset">
+    <div class="item">
+      <h3 class="level-title">SDS PAGE</h3>
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="90%" style="width: 90%;"></div>
+      </div>
+    </div>
+  </div>
+  <div class="skillset">
+    <div class="item">
+      <h3 class="level-title">PCR</h3>
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="70%" style="width: 70%;"></div>
+      </div>
+    </div>
+  </div>
+  <div class="skillset">
+    <div class="item">
+      <h3 class="level-title">Electrophoresis</h3>
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="70%" style="width: 70%;"></div>
+      </div>
+    </div>
+  </div>
+ </div> 
+<footer class="container-fluid1 text-center">
+        <p style="color: #fff">Thank you Xiaoying Riley and bismillah for inspiration CV template :)</p>
+      </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.js"></script>
-  </body>
+</body>
 </html>
