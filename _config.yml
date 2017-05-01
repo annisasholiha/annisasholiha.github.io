@@ -3,9 +3,8 @@ title: "Annisa Sholiha"
 email: annisa.sholiha@gmail.com
 description: "A dark blog theme for Jekyll."
 baseurl: ""
-url: "http://carte-noire.jacobtomlinson.co.uk/"
+url: ""
 title_description: "Mantan mahasiswi Biologi yang beralih profesi menjadi Website Programmer. Memiliki pekerjaan sampingan sebagai aktivis Toastmasters. Sangat senang diajak karaoke."
-title_image: "http://localhost:4000/assets/images/Nisa%2023%20Tahun.jpg"
 google_analytics: "UA-20365477-4"
 disqus_account: cartenoire
 github_repository: https://github.com/jacobtomlinson/carte-noire
