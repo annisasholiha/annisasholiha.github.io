@@ -14,14 +14,12 @@ post_limit: 5
 # Social usernames/URLs
 github_username:  annisasholiha
 instagram_username: annisa.sholiha
-google_plus_link: http://carte-noire.jacobtomlinson.co.uk/
-stackoverflow_link: http://carte-noire.jacobtomlinson.co.uk/
-xing_link:
-facebook_link:
+google_plus_link: https://plus.google.com/u/0/108120188979322623465
+facebook_link: annisa.sholiha.12
 
 # Footer
-footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
-footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+footer_left: "Made with <i class=\"fa fa-heart\"></i> by Jacob Tomlison and <a href=\"annisasholiha.github.io\">Annisa Sholiha (modified)</a>"
+footer_right: "&lt;/&gt; on <a href=\"annisasholiha.github.io\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
 markdown: kramdown
