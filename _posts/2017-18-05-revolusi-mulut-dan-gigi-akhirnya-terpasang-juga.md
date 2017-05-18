@@ -31,8 +31,9 @@ Pagi-pagi jam 10 udah sampai di klinik OMDC Alam Sutera. Tidak lama menunggu di 
 
 Gue masih ingat kalimat pertama yang diucapkan dokter gigi gue yang cantik itu ketika bertemu dengan gue...
 
-_Dokter gigi : “Hai, Baru keliatan nih. Kemana aja?”
-Gue: “iya dok, saya cabut gigi empat biji dulu, jadinya lama Nih dok (sambil nunjukkin keompongan gue ke dokternya)”_
+_Dokter gigi : “Hai, Baru keliatan nih. Kemana aja?”_
+
+_Gue: “iya dok, saya cabut gigi empat biji dulu, jadinya lama Nih dok (sambil nunjukkin keompongan gue ke dokternya)”_
 
 Setelah itu, dokternya kasih surat pernyataan bahwa gue bersedia menempuh tindakan medis berkaitan dengan dokter gigi gue sampai selesai. Kemudian, lanjut pasang deh.
 
