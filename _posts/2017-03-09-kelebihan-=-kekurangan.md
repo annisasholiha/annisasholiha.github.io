@@ -1,0 +1,46 @@
+---
+layout:     post
+title:      Motif
+date:       2017-03-09 12:32:18
+summary:    Motif
+categories: jekyll
+thumbnail: jekyll
+tags:
+ - Renungan
+ - Myself
+
+---
+
+Suatu hari di malam Ramadhan, Saya sedang dalam perjalanan pulang dari buka bersama angkatan Biologi UI 2012. Saya tidak sendiri disaat itu. Ada teman satu angkatan yang menemani.
+
+Teman saya ini, yang dulunya adalah anak daerah yang kuliah di kampus kuning, sekarang sudah menjelma menjadi pekerja kantoran di Jakarta. Berbeda dengan saya yang masih menuntut ilmu secara otodidak di bidang _Front-End Website Developer_.
+
+Ketika mata kami memandang KRL Bogor-Tanah Abang-Jatinegara yang sedang berhenti di Stasiun Pasar Minggu, teman saya berujar bahwa penumpang kereta itu tidak sepenuh ketika dirinya sedang pergi dan pulang kerja. Hal itu memang wajar, karena saat itu jam menunjukkan pukul 21.00 dan disaat akhir pekan.
+
+Iseng-iseng saya bertanya pada teman saya ini, _“Gimana rasanya pulang dan pergi kerja dengan KRL dalam kondisi gerbong penuh manusia?”_
+
+Teman saya hanya menjawab...
+
+>"Capek...”
+
+Lalu teman saya bercerita kembali. Sering ia merasakan _capek_ bukan karena tugas kerja di kantor, namun merasakan _capek_ setelah turun dari kereta yang penuh dengan manusia itu. Kelelahan yang dirasakan meliputi lahir dan batin. Kelelahan itulah yang dibawa sampai ke kantor. Oleh karena itu, teman saya ini merencanakan untuk _resign_ dari tempat kerjanya setelah kontrak kerjanya selesai.
+
+Iseng-iseng saya bertanya lagi kepada teman saya yang baik ini, _apa rencananya setelah keluar dari kantor?_
+
+Dengan senyum tipis yang mengembang di wajahnya, ia menjawab bahwa dia ingin menjadi pengusaha yang dekat dengan anak-anaknya. Dia juga ingin menjadi ibu rumah tangga yang baik. Dia lalu melanjutkan jawabannya lagi.
+
+_“Saat ini kalau hanya mengandalkan pendapatan suami buat rumah tangga masih kurang. Gue pernah denger curhatan ibu pekerja kantor di kereta, anaknya protes karena ibunya jarang ada di rumah. Lalu si ibu itu hanya bisa menjawab, kalau dirinya tidak kerja, kebutuhan sang anak tidak akan terpenuhi. Pendapatan  suaminya masih kurang dalam memenuhi kebutuhan beberapa sektor dalam kehidupan rumah tangganya. Makanya gue pingin jadi pengusaha. Biar bisa punya waktu lebih dengan keluarga,”_
+
+Saya pun tertegun mendengar jawabannya. Saya teringat dengan motivasi hidup saya saat ini. Walaupun profesi yang saya inginkan tidak sama dengan yang diinginkan oleh teman saya ini, tetapi saya memiliki motif yang sama dengannya. Saya ingin menjadi ibu yang memiliki banyak waktu dengan suami dan anak.
+
+Jalan karir yang saya inginkan ini memiliki kesempatan untuk memenuhi motif itu. Pekerjaan _programmer_ tidak harus dilakukan di kantor. Pekerjaan ini bisa dilakukan di rumah. Ya, karena yang dibutuhkan hanya dua, yaitu laptop dan kemampuan pemecahan masalah.
+
+Walaupun disisi lain, saya juga merasa kelelahan yang luar biasa. Sebagai seseorang yang bukan belatar pendidikan ilmu komputer, saya harus berusaha mengejar kemampuan berpikir seperti lulusan ilmu komputer. Dalam beberapa saat, keinginan untuk menyerah dan mencari pekerjaan yang lain, bahkan kembali ke laboratorium seperti dahulu selalu muncul. Dan satu hal yang membuat saya bertahan saat ini hanyalah motif yang saya inginkan itu, menjadi ibu  yang memiliki banyak waktu dengan keluarga.
+
+Ada sebuah kutipan dari Novelis George Eliot yang menggambarkan kehidupan saya dan teman saya saat ini.
+
+>“What makes life dreary is want of motive”
+
+Dan saya pun tergelitik untuk bertanya
+
+__“What my life is full of sorrows continuously with motive?”__
